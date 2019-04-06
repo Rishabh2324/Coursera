@@ -1,0 +1,23 @@
+{
+  "name": "coursera",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rishabh2324/Coursera.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rishabh2324/Coursera/issues"
+  },
+  "homepage": "https://github.com/Rishabh2324/Coursera#readme",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
+}
