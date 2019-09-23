@@ -7,7 +7,7 @@ const dishRouterId = express.Router();
 dishRouter.use(bodyParser.json());
 dishRouterId.use(bodyParser.json());
 
-dishRouter.route('')
+dishRouter.route('/dish')
     .all((req, res, next) => {
         res.statusCode = 200;
         res.setHeader('Content-type', 'text/plain');

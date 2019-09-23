@@ -7,7 +7,7 @@ const leaderRouterId = express.Router();
 leaderRouter.use(bodyParser.json());
 leaderRouterId.use(bodyParser.json());
 
-leaderRouter.route('/leaders')
+leaderRouter.route('/leader')
     .all((req, res, next) => {
         res.statusCode = 200
         res.setHeader('Content-type', 'text/plain');

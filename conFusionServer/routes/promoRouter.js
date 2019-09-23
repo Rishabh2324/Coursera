@@ -7,7 +7,7 @@ const PromotionRouterId = express.Router();
 PromotionRouter.use(bodyParser.json());
 PromotionRouterId.use(bodyParser.json());
 
-PromotionRouter.route('')
+PromotionRouter.route('/promotion')
     .all((req, res, next) => {
         res.statusCode = 200
         res.setHeader('Content-type', 'text/plain');
